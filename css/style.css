@@ -1,0 +1,309 @@
+/*
+Theme Name: 3dFusionStudio
+Author: Admin
+*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #363636;
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.2rem;
+    letter-spacing: .2em;
+    line-height: normal;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase; 
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: .15em;
+    color:#605e5e;
+    margin-bottom: 30px;
+    
+}
+
+h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: .15em;
+    color: white;   
+}
+
+
+h5{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    letter-spacing: .2em;
+}
+
+a {
+    color: #2c2b2b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #444343;
+
+}
+
+p {
+    letter-spacing: .1em;
+    line-height: 1.6em;
+    font-size: 15px;   
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+hr {
+margin-top: 0;
+  margin-bottom: 100px;
+  opacity: .05;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    outline: none;
+}
+
+
+
+textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    outline: none;
+}
+
+.btn{
+    height: 40px;
+    width: 122px;
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+.navbar {
+    min-height: 80px;
+  }
+  
+.navbar-brand{
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #363636;
+  }
+
+.navbar-light .navbar-brand {
+    color: #363636;
+}
+
+.nav-link{
+    text-transform: uppercase;
+  }
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    color: #363636;}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #7A7474;}
+
+.navbar-expand-md .navbar-nav .nav-link{
+    padding-left: 1rem;
+    padding-bottom: 4px;
+}
+
+
+.container{
+max-width: 960px;
+}
+
+.container-fluid{
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.bgimage {
+    width:100%;
+    height:90vh;
+    background: url('img/cover_background.jpg');
+
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+
+.halfhead{
+    height: 400px;
+    width:100%;
+    margin-top:80px;
+}
+
+
+
+.btn-transparent{
+    color: white;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: white;
+    margin-right: 7px;
+
+}
+
+.btn-transparent:hover{
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 0.80);
+}
+
+a.btn-transparent:focus{
+    outline:0;
+}
+
+.btn-white{
+    border-width: 0;
+    border-radius: 2px;
+    border-color: white;
+    margin-left: 7px;
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.btn-white:hover{
+    background: rgba(255, 255, 255, 0.60);
+}
+
+.btn-white:focus{
+    outline:0;
+}
+
+.cardinfo{
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+
+}
+
+.cardinfo p{
+    margin-bottom: 4px;
+}
+
+.plarge{
+    font-size: 17px;
+}
+
+.gutters{
+    padding: 4px;
+}
+
+.gutters:hover{
+    opacity: .8;
+}
+
+.no-gutters{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.no-gutters:hover{
+    opacity: .8;
+}
+
+.dark-bg{
+    background-color: #323232;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.form-elemnt{
+    margin-bottom: 50px;
+}
+
+.form-elemnt input{
+    width: 100%;
+    height: 40px;
+    padding: 3px 3px 3px 7px;
+}
+
+.form-elemnt input::placeholder{
+    color: rgba(54, 54, 54, 0.4)
+}
+
+.form-elemnt textarea{
+    width: 100%;
+    padding: 3px 3px 3px 7px;
+    resize: none;
+    height: 100px;
+    overflow-y: auto;
+}
+.form-elemnt textarea::placeholder{
+    width: 100%;
+    padding: 3px 3px 3px 7px;
+    color: rgba(54, 54, 54, 0.4)
+}
+
+.form-elemnt button{
+    width: 100%;
+    height: 40px;
+    padding: 3px 3px 3px 7px;
+    border: none;
+    background-color: #693cf0;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.form-elemnt button:hover{
+    background-color: #8763f3;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.social li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mb{
+    margin-bottom: 40px;
+}
+.ulStyle-none{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.right{
+    margin-right: 5px;
+}
