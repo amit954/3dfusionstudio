@@ -97,6 +97,7 @@ textarea{
     border-right: none;
     border-radius: 0;
     outline: none;
+    overflow:auto;
 }
 
 .btn{
