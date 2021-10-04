@@ -134,3 +134,4 @@ templates/pages.json
 templates/product rendering.html
 index.py
 utils.py
+templates/interactive-virtual-reality.html
