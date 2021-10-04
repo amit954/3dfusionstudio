@@ -135,3 +135,4 @@ templates/product rendering.html
 index.py
 utils.py
 templates/interactive-virtual-reality.html
+.idea/workspace.xml
