@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.0.2" apprev="17253">
+  <panorama id="node1" hideabout="1">
+    <input height="2048" overlap="1" width="2048" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000">
+      <level height="2048" predecode="0" width="2048" preload="0"/>
+      <level height="1024" predecode="0" width="1024" preload="0"/>
+      <level height="512" predecode="0" width="512" preload="0"/>
+      <level height="256" predecode="1" width="256" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" pan="0" fov="2"/>
+      <max fovfisheye="360" scaletofit="1" tilt="90" pan="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata comment="" datetime="" tags="" source="" title="Entrance" latitude="" description="" author="" customnodeid="" copyright="" info="" longitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textcolor="0x000000" textalpha="1" width="180" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundalpha="1" wordwrap="1" background="1" border="1" borderradius="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <hotspot id="Point01" tilt="-24.67" skinid="ht_node" url="{node2}" title="Running Shoes" pan="-318.13" description="" target="0.0/0.0/70.0"/>
+      <hotspot id="Point02" tilt="-13.77" skinid="ht_node" url="{node3}" title="Casual Shoes" pan="-18.22" description="" target="22.0/0.0/77.0"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomout="0" softedge="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomoutpause="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" simulatemass="1" lockedmouse="0" rubberband="0" lockedwheel="0" hideabout="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input height="2048" overlap="1" width="2048" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000">
+      <level height="2048" predecode="0" width="2048" preload="0"/>
+      <level height="1024" predecode="0" width="1024" preload="0"/>
+      <level height="512" predecode="0" width="512" preload="0"/>
+      <level height="256" predecode="1" width="256" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" pan="0" fov="70"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" tilt="90" pan="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata comment="" datetime="" tags="I-139" source="" title="Running Shoes" latitude="" description="" author="" customnodeid="" copyright="" info="" longitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textcolor="0x000000" textalpha="1" width="180" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundalpha="1" wordwrap="1" background="1" border="1" borderradius="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <hotspot id="Point01" tilt="-19.27" skinid="ht_image" url="images/Running Shoe_1.jpg" title="Running Shoe_1" pan="-11.87" description="" target="_self"/>
+      <hotspot id="Point02" tilt="-20.72" skinid="ht_node" url="{node1}" title="Entrance" pan="-242.22" description="" target="0.0/0.0/70.0"/>
+      <hotspot id="Point03" tilt="-18.64" skinid="ht_node" url="{node3}" title="Casual Shoes" pan="-128.06" description="" target="22.0/0.0/77.0"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomout="0" softedge="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomoutpause="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" simulatemass="1" lockedmouse="0" rubberband="0" lockedwheel="0" hideabout="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input height="2048" overlap="1" width="2048" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000">
+      <level height="2048" predecode="0" width="2048" preload="0"/>
+      <level height="1024" predecode="0" width="1024" preload="0"/>
+      <level height="512" predecode="0" width="512" preload="0"/>
+      <level height="256" predecode="1" width="256" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" pan="22" fov="77"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" tilt="90" pan="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata comment="" datetime="" tags="I-139" source="" title="Casual Shoes" latitude="" description="" author="" customnodeid="" copyright="" info="" longitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" textcolor="0x000000" textalpha="1" width="180" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundalpha="1" wordwrap="1" background="1" border="1" borderradius="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <hotspot id="Point01" tilt="-12.25" skinid="ht_node" url="{node1}" title="Entrance" pan="-83.3" description="" target="0.0/0.0/70.0"/>
+      <hotspot id="Point02" tilt="-17.73" skinid="ht_node" url="{node2}" title="Running Shoes" pan="-126.07" description="" target="0.0/0.0/70.0"/>
+      <hotspot id="Point03" tilt="-9.97" skinid="ht_image" url="images/Casual Shoe_1.jpg" title="Casual Shoe_1" pan="-11.85" description="" target=""/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomout="0" softedge="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomoutpause="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedkeyboard="0" simulatemass="1" lockedmouse="0" rubberband="0" lockedwheel="0" hideabout="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" dblclickfullscreen="0"/>
+  </panorama>
+  <masternode>
+    <userdata comment="" datetime="" tags="" source="" title="" latitude="" description="" author="" customnodeid="" copyright="" info="" longitude=""/>
+  </masternode>
+</tour>
