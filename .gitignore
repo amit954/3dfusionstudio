@@ -137,3 +137,4 @@ utils.py
 templates/interactive-virtual-reality.html
 .idea/workspace.xml
 templates/product-rendering.html
+templates/contact.html
