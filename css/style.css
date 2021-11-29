@@ -306,3 +306,25 @@ a.btn-transparent:focus{
 .right{
     margin-right: 5px;
 }
+
+.column {
+  display: none; /* Hide columns by default */
+}
+
+.show {
+  display: block;
+}
+
+.btn-transparent-black{
+    color: #363636;
+    border-color: black;
+    margin-bottom:10px;
+}
+
+
+
+.btn-transparent-black:hover{
+    color: white;
+    background: #323232;
+    border: 2px solid #323232;
+}
