@@ -232,23 +232,23 @@
                     <h2><span>Contact Us</span></h2>
                     <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/thank-you"
                         >
-                        <div class="form-elemnt">
+                        <div class="form-elemnt" required>
                             <input type="text" name="name" placeholder="Name">
                         </div>
 
 
-                        <div class="form-elemnt">
+                        <div class="form-elemnt" required>
                             <input type="email" name="email" placeholder="Email">
                         </div>
 
 
-                        <div class="form-elemnt">
+                        <div class="form-elemnt" required>
                             <textarea name="message" cols="40" row="10"
                                 placeholder="Leave us a message..."></textarea>
                         </div>
-                        <div class="form-elemnt" data-netlify-recaptcha="true"></div>
+                        <div class="form-elemnt" data-netlify-recaptcha="true" required></div>
                         <div class="form-elemnt">
-                            <button type="submit" id="register" value="Register" disabled="disabled">SUBMIT</button>
+                            <button type="submit">SUBMIT</button>
                         </div>
 
                     </form>
