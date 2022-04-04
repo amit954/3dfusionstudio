@@ -259,7 +259,7 @@
             <div class="row">
                 <div class="text-center col-lg-8 col-md-8 offset-lg-2 offset-md-2">
                     <h2><span>Contact Us</span></h2>
-                    <form name="contact" method="POST" data-netlify="true" action="/thank-you"
+                    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/thank-you"
                         >
                         <div class="form-elemnt">
                             <input type="text" name="name" placeholder="Name">
@@ -275,6 +275,7 @@
                             <textarea name="message" cols="40" row="10"
                                 placeholder="Leave us a message..."></textarea>
                         </div>
+                        <div data-netlify-recaptcha="true"></div>
                         <div class="form-elemnt">
                             <button type="submit">SUBMIT</button>
                         </div>
