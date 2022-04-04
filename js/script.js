@@ -5,7 +5,7 @@ document.getElementById("captcha_form").addEventListener("submit",function(evt)
   if(response.length == 0)
   {
     //reCaptcha not verified
-    alert("Please verify you are human.");
+    document.getElementById("recaptcha").focus();
     evt.preventDefault();
     return false;
   }
