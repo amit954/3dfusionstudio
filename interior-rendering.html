@@ -315,7 +315,7 @@
                         <div class="form-elemnt" data-netlify-recaptcha="true"></div>
 
                         <div class="form-elemnt">
-                            <button type="submit" class="btn btn-primary">SUBMIT</button>
+                            <button type="submit" id="btnSubmit" class="btn btn-primary hidden">SUBMIT</button>
                         </div>
 
                     </form>
@@ -391,7 +391,16 @@
         </div>
 
     </footer>
+<script>
+    function recaptchaCallback() {
+        var btnSubmit = document.getElementById("btnSubmit");
 
+        if ( btnSubmit.classList.contains("hidden") ) {
+            btnSubmit.classList.remove("hidden");
+            btnSubmitclassList.add("show");
+        }
+    }
+</script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
