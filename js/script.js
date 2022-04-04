@@ -5,8 +5,7 @@ document.getElementById("captcha_form").addEventListener("submit",function(evt)
   if(response.length == 0)
   {
     //reCaptcha not verified
-    window.alert("Please enter your address.");
-    document.getElementById("recaptcha").focus();
+
     evt.preventDefault();
     return false;
   }
