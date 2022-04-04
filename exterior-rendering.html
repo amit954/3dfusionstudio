@@ -233,24 +233,22 @@
                     <form id="captcha_form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/thank-you"
                         >
                         <div class="form-elemnt">
-                            <input class="form-control" type="text" name="name" placeholder="Name" required>
+                            <input type="text" name="name" placeholder="Name" required>
                         </div>
 
 
                         <div class="form-elemnt">
-                            <input class="form-control" type="email" name="email" placeholder="Email" required>
+                            <input type="email" name="email" placeholder="Email" required>
                         </div>
 
 
                         <div class="form-elemnt">
-                            <textarea class="form-control" name="message" cols="40" row="10"
+                            <textarea name="message" cols="40" row="10"
                                 placeholder="Leave us a message..." required></textarea>
                         </div>
 
                         <div id="recaptcha" class="form-elemnt" data-netlify-recaptcha="true"></div>
-                        <div class="invalid-feedback">
-                              please verify you are human.
-                            </div>
+
                         <div class="form-elemnt">
                             <button type="submit" class="btn btn-primary">SUBMIT</button>
                         </div>
