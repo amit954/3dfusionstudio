@@ -328,3 +328,7 @@ a.btn-transparent:focus{
     background: #323232;
     border: 2px solid #323232;
 }
+
+.g-recaptcha {
+    display: inline-block;
+}
