@@ -26,13 +26,73 @@
 
   gtag('config', 'G-MY3Z43JC7B');
 </script>
+<style>
+    /* Override navbar styles for homepage */
+    .navbar-brand {
+        color: white !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white !important;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: rgba(255, 255, 255, 0.8) !important;
+    }
+    
+    /* Keep dark color when scrolled */
+    .navbar.scrolled .navbar-brand,
+    .navbar.scrolled .navbar-nav .nav-link {
+        color: #363636 !important;
+    }
+    .navbar.scrolled .navbar-nav .nav-link:hover {
+        color: #7A7474 !important;
+    }
+
+        /* Carousel control button fixes */
+        .carousel-control-prev,
+    .carousel-control-next {
+        width: 80px !important;   /* Give enough width for clickable area */
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    /* Position the arrow icons */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        background-size: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .carousel-control-prev-icon {
+        left: 20px;
+    }
+
+    .carousel-control-next-icon {
+        right: 20px;
+    }
+
+    .bgimage:hover .carousel-control-prev,
+    .bgimage:hover .carousel-control-next {
+        opacity: 1;
+    }
+
+    /* Ensure navbar stays above carousel */
+    .navbar {
+        z-index: 5;
+    }
+</style>
 
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: white;">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light" >
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">3dFusionStudio</a>
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -74,20 +134,59 @@
 
 
 
-     <section class="bgimage">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center justify-content-center text-center">
-                <div class="col-lg-8">
-                    <h1>ARCHITECTURAL RENDERING & 3D ANIMATION SERVICES</h1>
-
-                    <h5>3dFusionStudio | A 3D Visualization Company</h5>
-                    <a href="#portfolio" class="btn btn-transparent">OUR WORK</a>
-                    <a href="#contact-form" class="btn btn-white">GET IN TOUCH</a>
+    <section class="bgimage">
+        <!-- Carousel -->
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-image" style="background-image: url('img/interior/luxary-bedroom.webp');"></div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="carousel-image" style="background-image: url('img/exterior/waterfront-townhome-rendering.jpg');"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-image" style="background-image: url('img/interior/industrial-office.jpg');"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-image" style="background-image: url('img/interior/living-interior.webp');"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-image" style="background-image: url('img/cover_background.jpg');"></div>
+                </div>
+            </div>
+    
+            <!-- Gradient Overlay -->
+            <div class="gradient-overlay"></div>
+    
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+        <!-- Content -->
+        <div class="hero-content">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h1>ARCHITECTURAL RENDERING & 3D ANIMATION SERVICES</h1>
+                        <h5>3dFusionStudio | A 3D Visualization Company</h5>
+                        <a href="#portfolio" class="btn btn-transparent">OUR WORK</a>
+                        <a href="#contact-form" class="btn btn-white">GET IN TOUCH</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="scroll-indicator">
+            <i class="fa fa-angle-down"></i>
+        </div>
     </section>
-
     <section>
         <div class="container">
             <div class="row">
@@ -351,12 +450,12 @@
             </div>
 
             <div class="row mb">
-                <div class="text-center col-12">© 2021 3DFUSIONSTUDIO</div>
-
+                <div class="text-center col-12">© <span id="year"></span> 3DFUSIONSTUDIO</div>
             </div>
         </div>
 
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -365,6 +464,7 @@
     <script src="js/fslightbox.js"></script>
     <script src="js/filter.js"></script>
     <script src="js/script.js"></script>
+
 
 
 </body>
