@@ -234,13 +234,13 @@ hr {
     z-index: 1;
 }
 
-
+/* 
 .btn {
     height: 40px;
     width: 122px;
     padding-left: 0;
     padding-right: 0;
-}
+} */
 
 .btn-transparent {
     color: white;
